@@ -66,7 +66,7 @@ li a{
 
 .image-container {
   position: relative;
-  background-image: url(./images/hero-img.JPG);
+  background-image: url(./assets/images/hero-img.JPG);
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -148,53 +148,53 @@ li a{
 }
 
 .event-project {
-  width: 400px;
+  width: 450px;
   height: 400px;
   background: white;
   position: relative;
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 50px;
-  background-image: url(./images/concert.jpg);
+  background-image: url(./assets/images/concert.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .quiz-project {
-  width: 400px;
+  width: 450px;
   height: 400px;
   background: white;
   position: relative;
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 50px;
-  background-image: url(./images/code.jpg);
+  background-image: url(./assets/images/code.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .planner-project {
-  width: 400px;
+  width: 450px;
   height: 400px;
   background: white;
   position: relative;
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 50px;
-  background-image: url(./images/planner.jpg);
+  background-image: url(./assets/images/planner.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .weather-project {
-  width: 400px;
+  width: 450px;
   height: 400px;
   background: white;
   position: relative;
   box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   margin: 50px;
-  background-image: url(./images/weather.jpg);
+  background-image: url(./assets/images/weather.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -240,6 +240,10 @@ h3 {
 
 /* ABOUT SECTION */
 
+#aboutme {
+  background-color: var(--dark-green);
+}
+
 .about-container {
   margin: 10%;
   width: 80%;
@@ -258,7 +262,7 @@ h3 {
 .about-image {
   height: 400px;
   width: 400px;
-  background-image: url(./images/Headshot.jpg);
+  background-image: url(./assets/images/Headshot.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -276,6 +280,106 @@ h3 {
   justify-content: space-between;
   font-size: 2rem;
   width: 30%;
-  margin: 25% 35%;
-  padding-top: 30px;
+  margin: 15% 35%;
+  padding-top: 10px;
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 768px) {
+  #nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: block;
+  }
+
+  .mobile-nav-bar {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+  }
+  ul {
+    background-color: rgba(0, 0, 0, 0.625);
+  }
+  
+  .event-project {
+    width: 250px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(./assets/images/concert.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .quiz-project {
+    width: 250px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(./assets/images/code.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .planner-project {
+    width: 250px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(./assets/images/planner.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .weather-project {
+    width: 250px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(./assets/images/weather.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 15px 7px 30px 7px rgba(0, 0, 0, 0.2);
+  }
+  .about-image {
+    margin-top: 20px;
+    height: 300px;
+    width: 225px;
+    background-image: url(./assets/images/Headshot.jpg);
+    background-size: cover;
+    background-position:center;
+  }
+  .about-text {
+    margin-left: 20px;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+
+  .social-icons i {
+    font-size: 2rem;
+    padding: 10px;
+    margin-left:  -10px;
+  }
 }
