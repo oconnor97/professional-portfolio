@@ -7,7 +7,7 @@
 }
 
 :root {
-  --green-text: rgb(21, 77, 21) ;
+  --green-text: #a1be95 ;
   --dark-blue: #002b8f;
   --mid-blue: #3ba0ff;
 
@@ -124,3 +124,11 @@ li a{
 .resume-cta:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
+/* 
+PROECTS SECTION
+
+.project-container {
+  width: 100%;
+  height:auto;
+} */
+
