@@ -8,8 +8,8 @@
 
 :root {
   --green-text: #a1be95 ;
-  --dark-blue: #002b8f;
-  --mid-blue: #3ba0ff;
+  --dark-green: #1a4314;
+  --mid-green: #2c5e1a;
 
 }
 
@@ -199,3 +199,41 @@ li a{
   background-position: center;
 }
 
+.text-container {
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  overflow: hidden;
+}
+
+.text-container:hover {
+  height: 250px;
+}
+
+.name {
+  margin-top: 10px;
+  color: var(--dark-green);
+  font-size: 2rem;
+  
+}
+
+.content {
+  padding: 2spx 0;
+  color: var(--mid-green);
+}
+
+.button {
+  border: 5px solid var(--green-text);
+  width: 160px;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin-bottom: 50px;
+  color: var(--green-text)
+}
+h3 {
+  color: var(--dark-green);
+}
