@@ -237,3 +237,45 @@ li a{
 h3 {
   color: var(--dark-green);
 }
+
+/* ABOUT SECTION */
+
+.about-container {
+  margin: 10%;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+.about-image {
+  height: 400px;
+  width: 400px;
+  background-image: url(./images/Headshot.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about-text {
+  height: auto;
+  width: 40%;
+  font-size: 1.5rem;
+  margin: 100px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  width: 30%;
+  margin: 25% 35%;
+  padding-top: 30px;
+}
