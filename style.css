@@ -199,6 +199,19 @@ li a{
   background-position: center;
 }
 
+.employee-directory {
+  width: 450px;
+  height: 400px;
+  background: white;
+  position: relative;
+  box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 50px;
+  background-image: url(./assets/images/employeeDirectory.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .text-container {
   position: absolute;
   height: 75px;
