@@ -262,7 +262,7 @@ h3 {
 .about-image {
   height: 400px;
   width: 400px;
-  background-image: url(./assets/images/Headshot.jpg);
+  background-image: url(./assets/images/bitmoji_selfie.png);
   background-size: cover;
   background-position: center;
 }
