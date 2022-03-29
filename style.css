@@ -370,6 +370,19 @@ h3 {
     background-position: center;
   }
 
+  .employee-directory {
+    width: 250px;
+    height: 400px;
+    background: white;
+    position: relative;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 50px;
+    background-image: url(./assets/images/employeeDirectory.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
   .about-container {
     display: flex;
     align-items: center;
