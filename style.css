@@ -15,6 +15,7 @@
 
 html {
   font-family: 'Montserrat', sans-serif;
+  background-color: var(--green-text);
 }
 
 a {
